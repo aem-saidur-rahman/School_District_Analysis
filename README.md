@@ -8,7 +8,7 @@ Original Analysis:
 
 ![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/original_dist_sum.png)
 
-The testing data of 461 9th graders at Thomas High School was turned into null data, which recalculated the percentages of passing math, passing reading, and the overall passing.  The total count of students did not change as that was run on the count of the student ids, which was not turned into null data. 
+ 461 Thomas High School 9th graders data was turned into null data, which recalculated the percentages of passing math, passing reading, and the overall passing.  The total count of students did not change as that was run on the count of the student ids, which was not turned into null data. 
 
 Adjusted Analysis:
 
@@ -22,9 +22,11 @@ In the original analysis, Thomas High School started with a 91% overall passing 
 
 Original Analysis:
 
+![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/org_sch_sum.png)
 
 Adjusted Analysis:
 
+![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/adj_sch_sum.png)
 
 Removing the 9th grade students from the data set had a huge impact by dropping from 91% to 65% for the overall passing rate. 
 
@@ -33,11 +35,13 @@ In the original analysis, Thomas High School ranked 2nd in the district raising 
 
 Original Analysis:
 
+![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/org_ths_9.png)
 
 After adjusting the 9th grade data, Thomas High School ranked in the exact middle of 15 campuses at 8th from the bottom. 
 
 Adjusted Analysis:
 
+![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/adj_ths_9.png)
 
 ## How does replacing the ninth-grade scores affect the following:
 
@@ -46,26 +50,34 @@ Adjusted Analysis:
 In the original analysis, Thomas High School had 83.6 math average and 83.7 reading average for the 9th grade tests. 
 Now the scores have been replaced with null values and shows up in Python programming as NaN in the following charts. 
 
-Adjusted Average Math Scores ----------------------------------------------------- Adjusted Average Reading Scores: 
+      Adjusted Average Math Scores----------------------------------------------------Adjusted Average Reading Scores
 
-
+![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/adj_math_by_grade.png)      ![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/adj_read_by_grade.png)
 
 ### Scores by school spending
 
-Thomas High School falls in the $630-$644/student spending range.  However, the hundredths place was needed to see the nominal changes. 
+Thomas High School falls in the $630-$644/student spending range.  
 
+**Original**
 
+![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/org_spend.png)
 
-There was very little spending impact by changing the 9th grade scores. 
+There was no spending impact by changing the 9th grade scores.
+
+**Adjusted**
+
+![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/adj_spending.png)
 
 ### Scores by school size
 Thomas High School is defined as a medium sized school.  The hundredths place was needed to see the nominal changes.
 
 Original Analysis:
 
+![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/org_size.png)
 
 Adjusted Analysis:
 
+![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/adj_size.png)
 
 There was very little impact by campus size due to changing the 9th grade scores. 
 
@@ -74,16 +86,16 @@ There was very little impact by campus size due to changing the 9th grade scores
 Thomas High School is a charter school type. The hundredths place was needed to see the nominal changes.
 
 Original Analysis:
-
+![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/org_type.png)
 
 Adjusted Analysis:
-
+![](https://github.com/aem-saidur-rahman/School_District_Analysis/blob/main/Resources/adj_type.png)
 
 There was very little impact by school type by changing the 9th grade scores. 
 
 ## Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
-1. The overall passing rate for Thomas High School changed dramatically from 91% to 65%. 
+1. The overall passing rate for Thomas High School changed drastically from 91% to 65%. 
 
 2. Thomas High School's ranking dropped from 2nd to 8th in the district of 15 campuses. 
 
